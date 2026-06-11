@@ -47,7 +47,9 @@ $$\sigma_{\text{annual}} = \sigma_{\text{daily}} \times \sqrt{252}$$
 $$\text{Sharpe} = \frac{E[R_p - R_f]}{\sigma_p} \times \sqrt{252}$$
 
 ### Value at Risk (Historical)
-$$\text{VaR}_{95\%} = -Q_{5\%}(R)$$
+$$
+\text{VaR}_{95\%} = -Q_{0.05}(R)
+$$
 
 ### Maximum Drawdown
 $$\text{DD}_t = \frac{P_t - \max(P_{0\ldots t})}{\max(P_{0\ldots t})}$$
