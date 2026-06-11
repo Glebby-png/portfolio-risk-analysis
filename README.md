@@ -1,7 +1,7 @@
 # portfolio-risk-analysis
 # Multi-Asset Portfolio Risk & Correlation Dynamics Across Market Regimes
 
-A quantitative risk study analyzing how diversification behaves across major asset classes — and critically, how that effectiveness changes during different market regimes.
+A quantitative risk study analyzing how diversification behaves across major asset classes how that effectiveness changes during different market regimes.
 
 ---
 
