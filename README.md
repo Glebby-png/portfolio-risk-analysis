@@ -122,10 +122,5 @@ jupyter notebook notebooks/analysis.ipynb
 
 ---
 
-## Resume Bullet
-
-> Built a multi-asset portfolio risk model in Python (yfinance, Pandas, NumPy) analyzing equities, bonds, gold, and crypto across 6+ years; computed log returns, annualised volatility, Sharpe ratios, Historical VaR, and CVaR; evaluated diversification breakdown across COVID-19 and 2022 inflation shock regimes using rolling correlation and regime-split correlation matrices, identifying correlation convergence and bond-hedge failure during stress periods.
-
----
 
 *Data sourced from Yahoo Finance via `yfinance`. For research and educational purposes only.*
