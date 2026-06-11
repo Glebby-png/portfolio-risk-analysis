@@ -48,7 +48,7 @@ $$\text{Sharpe} = \frac{E[R_p - R_f]}{\sigma_p} \times \sqrt{252}$$
 
 ### Value at Risk (Historical)
 $$
-\text{VaR}_{95\%} = -Q_{0.05}(R)
+\text{VaR}_{α} = -Q_{0.05}(R)
 $$
 
 ### Maximum Drawdown
