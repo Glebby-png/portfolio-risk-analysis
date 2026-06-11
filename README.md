@@ -11,7 +11,7 @@ A quantitative risk study analyzing how diversification behaves across major ass
 
 ---
 
-## Asset Universe
+## Asset
 
 | Ticker   | Asset Class | Role |
 |----------|-------------|------|
