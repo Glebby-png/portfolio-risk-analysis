@@ -125,4 +125,4 @@ jupyter notebook notebooks/analysis.ipynb
 ---
 
 
-*Data sourced from Yahoo Finance via `yfinance`. For research and educational purposes only.*
+*Data sourced from Yahoo Finance via `yfinance`.*
