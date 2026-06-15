@@ -108,9 +108,7 @@ portfolio-risk-analysis/
 
 ---
 
-## Quick Start
-
-## Installation
+## Quick Start Installation
 
 ```bash
 git clone https://github.com/Glebby-png/portfolio-risk-analysis.git
