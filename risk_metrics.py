@@ -86,7 +86,7 @@ def conditional_var(returns: pd.Series, confidence: float = 0.95) -> float:
     Conditional VaR (CVaR / Expected Shortfall).
 
     CVaR_α = E[R | R < VaR_α]
-S
+
     Average of all losses beyond the VaR threshold.
     More conservative and increasingly preferred by risk managers.
     """
