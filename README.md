@@ -80,18 +80,17 @@ prices = prices.asfreq("B").ffill()
 ## Project Structure
 
 ```
-portfolio_risk/
-├── src/
-│   ├── data_loader.py      # yfinance pull + business-day alignment
-│   ├── returns.py          # log returns + portfolio construction
-│   ├── risk_metrics.py     # vol, Sharpe, VaR, CVaR, max drawdown
-│   ├── correlation.py      # regime correlation + rolling analysis
-│   └── visualization.py   # all charts (matplotlib / seaborn)
-├── notebooks/
-│   └── analysis.ipynb      # exploratory analysis + all plots
-├── output/                 # saved charts and CSV summary
-├── main.py                 # end-to-end pipeline runner
-└── README.md
+portfolio-risk-analysis/
+├── data_loader.py
+├── returns.py
+├── risk_metrics.py
+├── correlation.py
+├── visualization.py
+├── main.py
+├── analysis.ipynb
+├── risk_summary.csv
+├── README.md
+└── requirements.txt
 ```
 
 ---
