@@ -31,7 +31,7 @@ def portfolio_returns(
     log_rets: pd.DataFrame,
     weights: np.ndarray | list | None = None,
 ) -> pd.Series:
-    """f
+    """
     Compute daily portfolio log returns using a fixed weight vector.
 
     Parameters
