@@ -110,18 +110,13 @@ portfolio-risk-analysis/
 
 ## Quick Start
 
+## Installation
+
 ```bash
-# Install dependencies
-pip install yfinance pandas numpy matplotlib seaborn scipy
+git clone https://github.com/Glebby-png/portfolio-risk-analysis.git
+cd portfolio-risk-analysis
 
-# Run full pipeline
-python main.py
-
-# Or open notebook for step-by-step exploration
-jupyter notebook notebooks/analysis.ipynb
+pip install -r requirements.txt
 ```
-
----
-
 
 *Data sourced from Yahoo Finance via `yfinance`.*
