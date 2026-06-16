@@ -49,8 +49,8 @@ def plot_cumulative_returns(
     shade: bool = True,
 ) -> plt.Figure:
     """Growth of $1 invested across each asset and the equal-weight portfolio."""
-    cum = (1 + log_rets).cumprod()
-    port_cum = (1 + port_rets).cumprod()
+    cum = np.exp(log_rets.cumsum())
+    port_cum = np.exp(port_rets.cumsum())
 
     fig, ax = plt.subplots(figsize=(12, 5))
     _shade_regimes(ax, shade)
