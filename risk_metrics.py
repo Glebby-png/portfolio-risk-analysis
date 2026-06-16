@@ -116,7 +116,7 @@ def drawdown_series(returns: pd.Series) -> pd.Series:
 
     A value of -0.30 means the portfolio is 30% below its prior peak.
     """
-    cum   = (1 + returns).cumprod()
+    cum = np.exp(returns.cumsum())
     peak  = cum.cummax()
     return (cum - peak) / peak
 
