@@ -67,3 +67,12 @@ def slice_regime(prices: pd.DataFrame, regime: str) -> pd.DataFrame:
     """Return the price slice corresponding to a named regime."""
     start, end = REGIMES[regime]
     return prices.loc[start:end]
+
+def save_prices_csv(prices: pd.DataFrame, path: str = "prices.csv"):
+    """Write dataframe into a CSV"""
+    prices.to_csv(path)
+    print(f"Saved {len(prices)} rows to {path}")
+
+if __name__ == "__main__": 
+    prices = load_prices()
+    save_prices_csv(prices, "prices.csv")
